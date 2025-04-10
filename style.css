@@ -1,0 +1,47 @@
+/* Podstawowy styl strony */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #35495e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #42b983;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2a9d70;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35495e;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
